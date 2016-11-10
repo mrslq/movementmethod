@@ -1,0 +1,67 @@
+h1 {
+  color:black
+}
+
+.lead {
+  font-size:120%;
+}
+
+.container{
+  width:100%;
+  color:black
+}
+
+.content-wrapper{
+  padding:3em;
+  position:relative;
+  width:70%;
+  background-color:rgba(255,255,255,0.8)
+}
+.locations {
+  float:left;
+  max-width:33%;
+  padding:1em;
+}
+.location_desc{
+  position:relative;
+  width:50%;
+  float:left;§
+}
+.location_image{
+  width:100%;
+}
+.location_thumb{
+  position:relative;
+  width:50%;
+  float:left;
+}
+@media screen and (max-width: 1024px) {
+
+  .locations{
+    width:100%;
+    max-width:100%;
+  }
+  .content-wrapper{
+    padding:2em;
+    position:relative;
+    width:100%;
+    background-color:rgba(255,255,255,0.8)
+  }
+
+
+}
+
+
+@media screen and (max-width: 360px) {
+.locations{
+    width:100%;
+    max-width:100%;
+  }
+  .content-wrapper{
+    padding:2em;
+    position:relative;
+    width:100%;
+    background-color:rgba(255,255,255,0.8)
+  }
+}
+
